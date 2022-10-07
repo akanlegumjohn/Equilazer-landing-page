@@ -1,1 +1,67 @@
-body {}
+:root {
+    --color-light-green: #66e2dc;
+    --color-light-red: #fa7453;
+    --color-light-yellow: #ffb964;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #8f8d8d;
+}
+
+body {
+    font-family: IBM Plex Sans Reg, sans-serif;
+    margin-left: 200px;
+}
+
+
+/* .desktop-main {
+    background: linear-gradient( rgba(226, 224, 223, 0.4), rgba(247, 245, 245, 0.4)), url("../images/bg-main-desktop.png");
+} */
+
+.top--left--logo {
+    margin: 40px 0px 0px 9px;
+}
+
+.top--right--logo {
+    float: right;
+    height: 400px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.intro--paragraph {
+    font-size: 25px;
+    line-height: 3rem;
+    margin-top: -30px;
+}
+
+.header--info {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+
+/* End of the header section */
+
+
+/* Main content */
+
+.main--content {
+    margin-top: 200px;
+    background-color: var(--color-black);
+    width: 1420px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.mobile--item {
+    position: absolute;
+    height: 700px;
+    bottom: -350px;
+}
+
+.flower--pattern {}
