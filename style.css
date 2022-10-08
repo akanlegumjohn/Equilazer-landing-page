@@ -134,3 +134,35 @@ h1 {
 .btn--image {
     margin-right: 10px;
 }
+
+
+/* End of the main content of the page */
+
+
+/*  begining of the footer section of the page */
+
+footer {
+    display: flex;
+    margin-top: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer--description--text {
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+.email {
+    font-weight: bolder;
+}
+
+.social--media {
+    margin-right: 160px;
+}
+
+.social--media--icon {
+    padding: 15px;
+    height: 30px;
+    width: 40px;
+}
