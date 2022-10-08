@@ -164,5 +164,21 @@ footer {
 .social--media--icon {
     padding: 15px;
     height: 30px;
-    width: 40px;
+    width: 30px;
+}
+
+
+/* Styling for hovering over items on the page */
+
+.ios--btn:hover {
+    background-color: var(--color-light-green);
+}
+
+.android--btn:hover {
+    background-color: var(--color-light-yellow);
+}
+
+.social--media--icon:hover {
+    /* The color  #fa7453; is converted into the following so that it can be applicable to the svg image */
+    filter: invert(57%) sepia(98%) saturate(1715%) hue-rotate(326deg) brightness(100%) contrast(97%);
 }
